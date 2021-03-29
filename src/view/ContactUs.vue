@@ -55,7 +55,7 @@ export default {
   },
   mounted() {
     var map = new BMap.Map("map"); // 创建地图实例
-    var point = new BMap.Point(116.301841, 140.156506); // 创建点坐标
+    var point = new BMap.Point(123.487659, 41.70285); // 创建点坐标
     map.centerAndZoom(point, 18); // 初始化地图，设置中心点坐标和地图级别
     map.enableScrollWheelZoom(true); //开启鼠标滚轮缩放
     var marker = new BMap.Marker(point); // 创建标注
@@ -66,7 +66,7 @@ export default {
       title: "沈阳国际软件园" // 信息窗口标题
     };
     var infoWindow = new BMap.InfoWindow(
-      "我们的公司",
+      "金睛云华科技有限公司沈阳分公司",
       opts
     ); // 创建信息窗口对象
     map.openInfoWindow(infoWindow, map.getCenter()); // 打开信息窗口

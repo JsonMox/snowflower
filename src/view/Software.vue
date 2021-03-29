@@ -59,6 +59,7 @@ export default {
     font-weight: bold;
 }
 .left-container>li {
+  width: '120px';
   text-align: center;
   height: 38px;
   line-height: 38px;
