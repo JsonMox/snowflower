@@ -153,7 +153,7 @@ export default {
 <style scoped>
 /* 顶部 */
 #header {
-  background: #f4f4f4;
+  background: #069;
   transition: all ease 0.6s;
 }
 #header .header-top {
